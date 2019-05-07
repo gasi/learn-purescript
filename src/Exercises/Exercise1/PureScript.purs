@@ -3,7 +3,7 @@ module Exercises.Exercise1.PureScript where
 import Internal
 import Exercises.Exercise1.JavaScript as JavaScript
 
--- TODO: Add imports required (if any) for exercise here:
+-- Imports for exercise
 import Data.Maybe (Maybe(..))
 
 
