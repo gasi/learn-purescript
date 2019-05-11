@@ -52,7 +52,7 @@ main allExercises = do
                         _ ->
                           Left ex
 
-                    [_, _] ->
+                    [_, _, _, _] ->
                       Right All
                     x ->
                       Left $ joinWith " " $ drop 2 x

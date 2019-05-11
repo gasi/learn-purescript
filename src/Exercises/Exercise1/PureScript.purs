@@ -1,16 +1,15 @@
 module Exercises.Exercise1.PureScript where
 
 import Internal
-import Exercises.Exercise1.JavaScript as JavaScript
 
 -- Imports for exercise
 import Data.Maybe (Maybe(..))
-
+import Exercises.Exercise1.JavaScript as JavaScript
 
 -- TODO: Implement `add2` to do the same as the JavaScript implementation
--- in `JavaScript.js` file:
+-- in `JavaScript.js` file using pattern matching.
 --
--- Reminder:
+-- NOTE: The definition of `Maybe`:
 --
 --    data Maybe a  -- `Maybe`: Name of type
 --      = Nothing   -- `Nothing`: Constructor for when we don’t have a value
@@ -22,8 +21,7 @@ import Data.Maybe (Maybe(..))
 --                     `Maybe String`, etc.
 --
 add2 :: Maybe Int -> Maybe Int
-add2 _ = Nothing -- TODO: Replace this line with your own implementation.
-
+add2 _ = Nothing  -- TODO: Replace this line with your own implementation
 
 main :: Effect Unit
 main = quickCheck \n ->
