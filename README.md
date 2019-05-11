@@ -1,6 +1,8 @@
-# Learn PureScript (0.12)
+# Learn PureScript
 
 Basic starter kit for learning PureScript.
+
+_All exercises work with latest PureScript 0.12 compiler._
 
 ## Quickstart
 
