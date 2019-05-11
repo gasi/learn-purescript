@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf .psc-package .pulp-cache node_modules output",
-    "postinstall": "npx psc-package install",
-    "start": "npx pulp run -- --censor-codes=ImplicitQualifiedImportReExport --",
-    "test": "npx pulp test"
+    "postinstall": "psc-package install",
+    "start": "pulp run -- --censor-codes=ImplicitQualifiedImportReExport --",
+    "test": "pulp test"
   },
   "repository": {
     "type": "git",
